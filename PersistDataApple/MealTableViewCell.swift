@@ -18,6 +18,8 @@ class MealTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        photoImageView.contentMode = UIViewContentMode.ScaleAspectFit
         // Initialization code
     }
 
